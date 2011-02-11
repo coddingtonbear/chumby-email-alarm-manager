@@ -25,9 +25,8 @@ After [SSHing into your Chumby](http://wiki.chumby.com/mediawiki/index.php/Chumb
     # Copy the script from Adam's shared files
     mkdir /mnt/storage/scripts/
     cd /mnt/storage/scripts/
-    wget http://media.latestrevision.net/files/ChumbyEmailAlarmManager.py
-    wget http://media.latestrevision.net/files/emailconfig.conf
-
+    wget http://hg.adamcoddington.net/chumby-email-alarm-manager/raw/tip/ChumbyEmailAlarmManager.py
+    wget http://hg.adamcoddington.net/chumby-email-alarm-manager/src/tip/reference/emailconfig.conf
 
 ### Configuration
 
