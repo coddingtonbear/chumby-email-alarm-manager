@@ -1,5 +1,7 @@
 <!-- -*- markdown -*- -->
 
+# Installation Instructions
+
 ### Python on the Chumby
 
 After [SSHing into your Chumby](http://wiki.chumby.com/mediawiki/index.php/Chumby_tricks#Open_a_secure_shell_.28SSH.29_console_on_the_chumby), you'll need to download, extract, and install the pre-compiled version of Python2.6 for your Chumby.
