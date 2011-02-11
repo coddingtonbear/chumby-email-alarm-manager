@@ -74,7 +74,7 @@ Although most of the fields are self-explanatory, you'll notice a configuration 
 
 Launch the crontab editor
 
-    crontab -e
+    crontab -c /psp/crontabs -e
 
 And add this line to the top of the file:
 
