@@ -4,7 +4,6 @@
 
 After [SSHing into your Chumby](http://wiki.chumby.com/mediawiki/index.php/Chumby_tricks#Open_a_secure_shell_.28SSH.29_console_on_the_chumby), you'll need to download, extract, and install the pre-compiled version of Python2.6 for your Chumby.
 
-    ::bash
     # Temporarily re-mount the root drive as read-write
     mount -o remount,rw /
     # Create a folder to hold your python installation, and head over there
@@ -21,7 +20,6 @@ After [SSHing into your Chumby](http://wiki.chumby.com/mediawiki/index.php/Chumb
 
 ### Install this script
 
-    ::bash
     # Copy the script from Adam's shared files
     mkdir /mnt/storage/scripts/
     cd /mnt/storage/scripts/
@@ -33,7 +31,6 @@ After [SSHing into your Chumby](http://wiki.chumby.com/mediawiki/index.php/Chumb
 
 You'll then need to edit the configuration file using vi (as far as I am aware, its the only editor installed on the Chumby).
 
-    ::bash
     vi emailconfig.conf
 
 You should set each of the requested fields to what is appropriate for your environment.  The Chumby's version of Python is not compiled with SSL support, so make sure you're using a non-SSL IMAP/POP and STMP server.
@@ -77,7 +74,6 @@ Although most of the fields are self-explanatory, you'll notice a configuration 
 
 Launch the crontab editor
 
-    ::bash
     crontab -e
 
 And add this line to the top of the file:
@@ -88,7 +84,6 @@ The above line will tell your Chumby to run this script once every minute; if yo
 
 ### Clean up after yourself
 
-    ::bash
     # We won't need this anymore
     rm python2.6-chumby.tgz
     # Re-mount as read-only
