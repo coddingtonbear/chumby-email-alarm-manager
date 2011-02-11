@@ -1,3 +1,4 @@
+#!/usr/bin/python
 '''
 File: ChumbyEmailAlarmManager.py
 Author: Adam Coddington
