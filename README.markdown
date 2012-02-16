@@ -1,5 +1,3 @@
-<!-- -*- markdown -*- -->
-
 # Installation Instructions
 
 ### Installing Python on the Chumby (if you don't have it already)
